@@ -6,9 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 gem "bcrypt", "3.1.11"
+gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"
-gem "ffaker"
+gem 'toastr-rails'
+gem "faker"
 gem "figaro"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
@@ -19,6 +21,8 @@ gem "rubocop", "~> 0.54.0", require: false
 gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'will_paginate',           '3.1.6'
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
