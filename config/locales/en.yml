@@ -45,3 +45,4 @@ en:
   actions: "Actions"
   add_category: "Add category"
   create_category: "Create category"
+  user_not_found: "User not found"
