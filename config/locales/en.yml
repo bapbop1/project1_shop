@@ -29,4 +29,19 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
-  hello: "Hello world"
+  create_success: "Create success"
+  update_success: "Update success"
+  delete_fail: "Delete fail"
+  delete_success: "Deleted"
+  category_not_found: "Category not found"
+  edit: "Edit"
+  delete: "Delete"
+  confirm: "You sure ?"
+  edit_category: "Edit Category"
+  save_category: "Save Category"
+  list_categories: "List categories"
+  id_category: "ID category"
+  categories: "Categories"
+  actions: "Actions"
+  add_category: "Add category"
+  create_category: "Create category"

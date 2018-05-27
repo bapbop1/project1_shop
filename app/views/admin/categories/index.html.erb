@@ -1,23 +1,23 @@
-<%= provide :title, "list product" %>
+<%= provide :title, t("list_categories") %>
 <div class="row">
   <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
         <div class="overflow_hidden">
-          <h1 class="float_left">List categories</h1>
-          <%= link_to "add Categories", new_admin_category_path, class: "btn btn-primary float_right" %>
+          <h1 class="float_left"><%= t "list_categories" %></h1>
+          <%= link_to t("add_category"), new_admin_category_path, class: "btn btn-primary float_right" %>
         </div>
         <table class="table table-bordered">
           <thead>
             <tr>
               <th>
-                STT
+                <%= t "id_category" %>
               </th>
               <th>
-                Categories
+                <%= t "categories" %>
               </th>
               <th>
-                Actions
+                <%= t "actions" %>
               </th>
             </tr>
           </thead>
